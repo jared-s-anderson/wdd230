@@ -1,0 +1,46 @@
+h1 
+{
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 50px;
+    border-radius: 25px;
+    font-size: 50pt;
+}
+
+h2
+{
+    font-size: 25pt;
+}
+
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 150px;
+}
+
+img
+{
+    float: right;
+    margin-top: -200px;
+    margin-right: 25px;
+}
+
+#main-heading
+{
+    margin-left: 50px;
+}
+
+#links
+{
+    margin-left: 75px;
+}
+
+#update
+{
+    color: black;
+}
