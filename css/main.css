@@ -13,6 +13,11 @@ h2
     font-size: 25pt;
 }
 
+h1, h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 footer
 {
     text-align: center;
@@ -23,12 +28,6 @@ footer
     margin-top: 150px;
 }
 
-img
-{
-    float: right;
-    margin-top: -200px;
-    margin-right: 25px;
-}
 
 #main-heading
 {
@@ -43,4 +42,12 @@ img
 #update
 {
     color: black;
+}
+
+img
+{
+    float: right;
+    object-fit: contain;
+    margin-top: -275px;
+    margin-right: 25px;
 }

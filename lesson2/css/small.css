@@ -1,0 +1,68 @@
+h1
+{
+    text-align: center;
+    background-color: red;
+    padding: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: white;
+    border-radius: 25px;
+    font-size: 50px;
+}
+
+h2
+{
+    font-family: 'Inconsolata', monospace;
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+
+section
+{
+    margin: 0.5rem;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 150px;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+img
+{
+    padding: 50px;
+}
+
+h3
+{
+    padding: 25px;
+}
+
+main 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+body
+{
+    font-size: 16pt;
+}
