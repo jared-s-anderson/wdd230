@@ -1,0 +1,112 @@
+body
+{
+    font-size: 16pt;
+    background-color: #F1FEC6;
+}
+
+nav
+{
+    background-color: #29339B;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover
+{
+    color: #FF3A20;
+}
+
+header
+{
+    color: white;
+    background-color: #74A4BC;
+    text-align: center;
+    padding: 10px;
+}
+
+header, nav, footer, main
+{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+footer
+{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #29339B;
+    color: white;
+    padding: 25px;
+}
+
+footer a
+{
+    color: white;
+}
+
+footer a:hover
+{
+    color: #FF3A20;
+}
+
+table
+{
+    border: 1px solid;
+    padding: 10px;
+}
+
+td
+{
+    border: 1px solid;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+#color1
+{
+    background-color: #29339B;
+}
+
+#color2
+{
+    background-color: #F1FEC6;
+}
+
+#color3
+{
+    background-color: #74A4BC;
+}
+
+#color4
+{
+    background-color: #FF3A20;
+}
+
+#color5
+{
+    background-color: #B6D6CC;
+}
+
+h1,h2,h3
+{
+    font-family: 'Fredoka One', cursive;
+}
+
+p
+{
+    font-family: 'Josefin Slab', serif;
+}
