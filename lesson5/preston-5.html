@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "News site for the weather">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>The Weekly Whirlwind</title>
+</head>
+<body>
+    <div id ="banner" style="display: block;"></div>
+<header>
+    <img src="images/sun_logo.png" alt="The Weekly Whirlwind Logo" class="logo"><br>
+    <h1>The Weekly Whirlwind</h1>
+    <span class="motto">News that you can count on</span>
+</header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="preston-5.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>Preston Idaho</h2>
+    <div class="hero">
+        <section class="weather-summary">
+        <h3>Weather Summary</h3>
+        <p>Currently: Sunny</p>
+        <p>Temperature: 67°</p>
+        <p>Humidity: 70%</p>
+        <p>Wind Speed: 9 mph</p>
+        </section>
+        <img src="images/sky.jpg" alt = "picture of the sky">
+    </div>
+        <section class="forecast">
+        <h3>5 Day Forecast</h3>
+        <table id="forecast-items">
+            <tbody>
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td id="wed"><img src="images/sun.png" alt = "sun" width = 60 height = 60>77°F</td>
+                    <td id="thu"><img src="images/sun.png" alt = "sun" width = 60 height = 60>81°F</td>
+                    <td id="fri"><img src="images/sun.png" alt = "sun" width = 60 height = 60>84°F</td>
+                    <td id="sat"><img src="images/sun.png" alt = "sun" width = 60 height = 60>83°F</td>
+                    <td id="sun"><img src="images/sun.png" alt = "sun" width = 60 height = 60>78°F</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <article class="article">
+        <h3>Local Food Bank</h3>
+        <div class="article-content">
+            <img src="images/food_bank.jpg" width = 300 alt = "Picture of local food bank">
+            <p>Preston is holding a local food bank to help out those in the community who are in need. The local food bank started 
+                last Friday, and it will last until Saturday of next week. Local resisdents are encouraged to bring canned and boxed
+                items.
+            </p>
+        </div>
+        </article>
+        <section class="contact">
+        
+            <div class="map">
+            <img src="images/preston-map-placeholder.png" alt="Map of Preston">
+            </div>
+            <div class="info">
+        <p>The Weekly Whirlwind</p>
+        <p>30 N 1 E</p>
+        <p>Preston, ID 83263</p>
+        <p>☎ 991.999.5555 <br><br>
+        <a href="mailto:contact@theweeklywhirlwind.info" target ="_blank" rel="nothing">contact@theweeklywhirlwind.info</a>
+        </p>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.facebook.com/"><img class="icons" 
+            src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://twitter.com/"><img class="icons" 
+            src="images/twitter-logo.png" alt="twitter logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
+            src="images/youtube-logo.png" alt="youtube logo"></a>
+        </div>
+        </section>
+</main>
+<footer>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+</footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
+</body>
+</html>

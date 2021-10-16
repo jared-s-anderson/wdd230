@@ -154,6 +154,7 @@ nav ul.hide
 {
     display: flex;
     justify-content: center;
+    padding: 25px;
 }
 
 main div
@@ -161,10 +162,10 @@ main div
     margin: 1em;
     background-color: #74A4BC;
     padding: 10px;
-    border-top: 3px dotted;
-    border-bottom: 3px dotted;
-    border-left: 3px dotted;
-    border-right: 3px dotted;
+    border-top: 3px dotted white;
+    border-bottom: 3px dotted white;
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
 }
 
 .clearfix:after
@@ -173,3 +174,103 @@ main div
     display: table;
     clear: both;
 }
+
+table
+{
+    display: table;
+}
+
+td, th
+{
+    width: 150px;
+}
+
+.banner
+{
+    display: none;
+    text-align: center;
+}
+
+.social-media img
+{
+    width: 25px;
+}
+
+.hero img
+{
+    width: 100%;
+}
+
+.hero
+{
+    position: relative;
+}
+
+.weather-summary
+{
+    position: absolute;
+    margin-right: 35px;
+    top: 20px;
+    left: 20px;
+    background: #74A4BC;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 15px;
+    box-shadow: 3px 3px 0 0 white;
+    opacity: 1;
+    max-height: 200px;
+    line-height: .5;
+}
+
+.weather-summary p
+{
+    color: white;
+}
+
+main h2
+{
+    color: #29339B;
+}
+
+.article
+{
+    text-align: center;
+    border: white dotted 3px;
+    margin: 4rem 0;
+    padding: 10px;
+    max-width: 900px;
+    background-color: #74A4BC;
+}
+
+.article-content
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    flex-direction: column-reverse;
+}
+
+.article-content img
+{
+    border: white solid 1px;
+    width: 100%;
+}
+
+.map img
+{
+    width: 100%;
+    border: black solid 1px;
+    flex-direction: column-reverse;
+    
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    color: white;
+}
+
+
