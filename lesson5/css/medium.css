@@ -17,11 +17,24 @@
 
     .weather-summary
     {
-        top: 35px;
-        left: 35px;
+        
+        top: 30px;
+        left: 30px;
         padding: 1rem 2.5rem;
         line-height: 1;
         max-height: 100%;
+        
+        /*
+        top: 1.5em;
+        left: 1.5em;
+        */
+    }
+
+    .forecast
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 2em;
     }
 
     .social-media img 
@@ -43,5 +56,9 @@
         width: 100%;
     }
 
+    .hero
+    {
+        min-height: 15em;
+    }
 
 }

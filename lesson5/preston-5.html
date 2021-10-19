@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
     <title>The Weekly Whirlwind</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
         <li><a href="#">Home</a></li>
-        <li><a href="preston-5.html">Preston</a></li>
+        <li class="active"><a href="preston-5.html">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -37,17 +38,19 @@
 </nav>
 <main>
     <h2>Preston Idaho</h2>
-    <div class="hero">
-        <section class="weather-summary">
+    <article class="hero">
+        <picture>
+            <img src="images/sky.jpg" alt = "picture of the sky">
+        </picture>
+        <div class="weather-summary">
         <h3>Weather Summary</h3>
-        <p>Currently: Sunny</p>
-        <p>Temperature: 67°</p>
-        <p>Humidity: 70%</p>
-        <p>Wind Speed: 9 mph</p>
-        </section>
-        <img src="images/sky.jpg" alt = "picture of the sky">
-    </div>
-        <section class="forecast">
+        <p>Currently: <span>Sunny</span></p>
+        <p>Temperature: <span>67°</span></p>
+        <p>Humidity: <span>70%</span></p>
+        <p>Wind Speed: <span>9 mph</span></p>
+        </div>
+    </article>
+        <div class="forecast">
         <h3>5 Day Forecast</h3>
         <table id="forecast-items">
             <tbody>
@@ -67,23 +70,20 @@
                 </tr>
             </tbody>
         </table>
-        </section>
+        </div>
         <article class="article">
         <h3>Local Food Bank</h3>
         <div class="article-content">
-            <img src="images/food_bank.jpg" width = 300 alt = "Picture of local food bank">
+            <img src="images/food_bank.jpg" alt = "Picture of local food bank">
             <p>Preston is holding a local food bank to help out those in the community who are in need. The local food bank started 
                 last Friday, and it will last until Saturday of next week. Local resisdents are encouraged to bring canned and boxed
                 items.
             </p>
         </div>
         </article>
-        <section class="contact">
-        
-            <div class="map">
-            <img src="images/preston-map-placeholder.png" alt="Map of Preston">
-            </div>
-            <div class="info">
+        <article class="contact">
+        <div class="info">
+            <img class="map" src="images/preston-map-placeholder.png" alt="Map of Preston">
         <p>The Weekly Whirlwind</p>
         <p>30 N 1 E</p>
         <p>Preston, ID 83263</p>
@@ -97,7 +97,7 @@
         <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
             src="images/youtube-logo.png" alt="youtube logo"></a>
         </div>
-        </section>
+        </article>
 </main>
 <footer>
     <p>
