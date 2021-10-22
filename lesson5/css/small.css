@@ -223,7 +223,8 @@ td, th
 
 .weather-summary
 {
-    position: absolute;
+    display: block;
+    position: static;
     margin-right: 35px;
     top: 15px;
     left: 15px;
@@ -272,7 +273,7 @@ main h2
     padding: 10px;
     max-width: 900px;
     background-color: #29339B;
-    margin-top: 175px;
+    margin-top: 100px;
 }
 
 .article-content
