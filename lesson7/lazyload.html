@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Website to test image loading">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Progressive Image Loading</title>
+</head>
+<body>
+    <main>
+        <h1 class="lazy-heading">Progressive Image Loading</h1>
+        <div class="container">
+            <picture>
+                <img src="images/placeholder_image.png" 
+                data-src="https://i.picsum.photos/id/807/300/400.jpg?hmac=QbL5KC9zXnb8P6IlR917npOuc83p6QY5KRINL9q4a2M" 
+                alt="Image 1">
+            </picture>
+            <picture>
+                <img src="images/placeholder_image.png"
+                data-src="https://i.picsum.photos/id/614/300/400.jpg?hmac=mR4PyFFfUwaqOB0ThHe6l4AxnFK6Avxcb-jR6pCoc64" 
+                alt="Image 2">
+            </picture>
+            <picture>
+                <img src="images/placeholder_image.png"
+                data-src="https://i.picsum.photos/id/410/300/400.jpg?hmac=9gnijB32ABDpwv0Hk2NLs1pzdIR3kl2mG_JNNCSAAUo" 
+                alt="Image 3">
+            </picture>
+            <picture>
+                <img src="images/placeholder_image.png" 
+                data-src="https://i.picsum.photos/id/675/300/400.jpg?hmac=c4MwQEE4KsAAQxN_6yr9TrFXmsDB6Yh8uNlw3Mb9XzE" 
+                alt="Image 4">
+            </picture>
+            <picture>
+                <img src="images/placeholder_image.png" 
+                data-src="https://i.picsum.photos/id/490/300/400.jpg?hmac=XoO_MykDpuM0nA_5lx3PEcI9JWxiNqCwy_10_v6RAXA"
+                alt="Image 5">
+            </picture>
+            <picture>
+                <img src="images/placeholder_image.png" 
+                data-src="https://i.picsum.photos/id/257/300/400.jpg?hmac=a4m-IdloyqWDhztSySBSKnbxv-3KzwA1cjc66kSG_K0" 
+                alt="Image 6">
+            </picture>
+        </div>
+    </main>
+<footer>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+</footer>
+    <script src="js/modified.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({
+        google: 
+        {
+          families: ['Fredoka One', 'Josefin Slab']
+        }
+      });
+      </script>
+</body>
+</html>

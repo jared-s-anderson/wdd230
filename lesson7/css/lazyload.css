@@ -1,0 +1,26 @@
+.lazy-heading
+{
+    text-align: center;
+    color: #29339B;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img[data-src]
+{
+    filter: blur(.2em);
+}
+
+img 
+{
+    filter: blur(0em);
+    transition: filter .5s;
+    margin: 15px;
+    border: white dashed 2px;
+}
