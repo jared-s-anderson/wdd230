@@ -174,7 +174,6 @@ nav ul.hide
 main
 {
     padding: 25px;
-    max-width: 850px;
 }
 
 main div
@@ -353,4 +352,53 @@ main h2
 .forecast h3
 {
     color: white;
+}
+
+.gallery-title
+{
+    text-align: center;
+    color: #29339B;
+    padding: 25px;
+}
+
+.preston-title
+{
+    text-align: center;
+    color: #29339B;
+    padding: 25px;
+}
+
+.gallery-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+
+.gallery-container figure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.gallery-container figure img[data-src]
+{
+    filter: blur(.2em)
+}
+
+.gallery-container figure img
+{
+    filter: blur(0em);
+    transition: filter .5s;
+    border: white dashed 2px;
+    margin: 15px;
+    max-width: 100%;
+    width: 100%;
 }

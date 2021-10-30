@@ -62,4 +62,16 @@
         min-height: 15em;
     }
 
+    .gallery-container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    main 
+    {
+        max-width: 1250px;
+    }
+
 }

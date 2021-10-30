@@ -354,3 +354,10 @@ main h2
 {
     color: white;
 }
+
+.preston-title
+{
+    text-align: center;
+    color: #29339B;
+    padding: 25px;
+}
