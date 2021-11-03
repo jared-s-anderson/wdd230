@@ -1,0 +1,65 @@
+table
+{
+    font-family: 'Ubuntu', sans-serif;
+    height: 300px;
+    width: 350px;
+    filter: drop-shadow(10px 10px 5px #628ca6);
+    text-align: center;
+    margin: 175px;
+    flex-direction: column;
+}
+
+table, thead, th, td, tr
+{
+    padding: 10px;
+    border: 1px solid #B0B0B0;
+    border-collapse: collapse;
+}
+
+#table-alignment
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td
+{
+    font-size: 1.2rem;
+}
+
+th
+{
+    color: white;
+    background-color: #628ca6;
+}
+
+tr
+{
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #e7ffed;
+}
+
+thead th
+{
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dark-cell
+{
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot td
+{
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 1rem;
+}
