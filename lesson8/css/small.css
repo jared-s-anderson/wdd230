@@ -1,0 +1,469 @@
+body
+{
+    font-size: 16pt;
+    background-color: #F1FEC6;
+}
+
+
+nav
+{
+    background-color: #74A4BC;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li
+{
+    padding: 0px;
+}
+
+nav ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover
+{
+    color: black;
+}
+
+.active
+{
+    border: 1px solid white;
+}
+
+header
+{
+    color: white;
+    background-color: #29339B;
+    text-align: center;
+    padding: 10px;
+}
+
+header, nav, footer
+{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+main
+{
+    margin: 0 auto;
+
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer
+{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #29339B;
+    color: white;
+    padding: 25px;
+}
+
+footer a
+{
+    color: white;
+}
+
+footer a:hover
+{
+    color: #B6D6CC;
+}
+
+table
+{
+    border: 3px solid;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+td
+{
+    border: 1px solid;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+#color1
+{
+    background-color: #29339B;
+}
+
+#color2
+{
+    background-color: #F1FEC6;
+}
+
+#color3
+{
+    background-color: #74A4BC;
+}
+
+#color4
+{
+    background-color: #FF3A20;
+}
+
+#color5
+{
+    background-color: #B6D6CC;
+}
+
+h1,h2,h3
+{
+    font-family: 'Fredoka One', cursive;
+}
+
+h3
+{
+    color: #29339B;
+    display: flex;
+    justify-content: center;
+}
+
+p
+{
+    font-family: 'Josefin Slab', serif;
+}
+
+h1
+{
+    color: white;
+}
+
+.motto
+{
+    color: white;
+    padding: 10px;
+}
+
+nav button 
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+nav ul.hide 
+{
+    display: none;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+main
+{
+    padding: 25px;
+}
+
+main div
+{
+    margin: 1em;
+    background-color: #29339B;
+    padding: 10px;
+    border-top: 3px dotted white;
+    border-bottom: 3px dotted white;
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
+}
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+td, th
+{
+    width: 150px;
+}
+
+.banner
+{
+    display: none;
+    text-align: center;
+}
+
+.social-media img
+{
+    width: 25px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+.hero
+{
+    
+    position: relative;
+    
+}
+
+.hero picture img
+{
+    width: 100%;
+    border-radius: .8em;
+}
+
+.weather-summary
+{
+    display: block;
+    position: static;
+    margin-right: 35px;
+    top: 15px;
+    left: 15px;
+    background: #74A4BC;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 10px;
+    box-shadow: 3px 3px 0 0 white;
+    opacity: .9;
+    max-height: 500px;
+    line-height: 1;
+
+    
+    /*
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 10px;
+    background-color: #74A4BC;
+    font-size: .5rem;
+    padding: 15px;
+    */
+
+}
+
+.weather-summary h3
+{
+    margin-bottom: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.weather-summary p
+{
+    color: white;
+    text-align: center;   
+}
+
+main h2
+{
+    color: #29339B;
+}
+
+.article
+{
+    text-align: center;
+    border: white dotted 3px;
+    margin: 4rem 0;
+    padding: 10px;
+    max-width: 900px;
+    background-color: #29339B;
+    margin-top: 100px;
+}
+
+.article-content
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    flex-direction: column-reverse;
+    border: none;
+}
+
+.article h3
+{
+    color: white;
+}
+
+.article-content img
+{
+    width: 65%;
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    border: white solid 2px;
+    
+}
+
+.map
+{
+    border: white solid 1px;
+    width: 50%;
+}
+
+/*
+.contact img
+{
+    width: 50%;
+    border: black solid 1px;
+    flex-direction: column-reverse;
+    
+}
+*/
+.contact
+{
+    flex-direction: column-reverse;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+.contact a
+{
+    color: white;
+}
+.forecast
+{
+    margin-top: 25px;
+    display: none;
+    padding: 100px;
+    color: black;
+}
+
+#forecast-items
+{
+    background-color: white;
+}
+
+.forecast h3
+{
+    color: white;
+}
+
+.gallery-title
+{
+    text-align: center;
+    color: #29339B;
+    padding: 25px;
+}
+
+.preston-title
+{
+    text-align: center;
+    color: #29339B;
+    padding: 25px;
+}
+
+.gallery-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+
+.gallery-container figure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.gallery-container figure img[data-src]
+{
+    filter: blur(.2em)
+}
+
+.gallery-container figure img
+{
+    filter: blur(0em);
+    transition: filter .5s;
+    border: white dashed 2px;
+    margin: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+form label, form div
+{
+    display: block;
+    padding-top: 1rem;
+}
+
+form fieldset
+{
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    color:#29339B;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.thanks
+{
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.thanks h1
+{
+    text-align: center;
+    color: #29339B;
+    margin-bottom: 50px;
+}
+
+.thanks p
+{
+    text-align: center;
+    color: #29339B;
+}
+
+.stormtitle
+{
+    text-align: center;
+    color: #29339B;
+}
+
+.ta 
+{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.submit
+{
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.zc
+{
+    margin-bottom: 10px;
+}
