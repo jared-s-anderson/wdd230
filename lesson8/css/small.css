@@ -467,3 +467,11 @@ form fieldset
 {
     margin-bottom: 10px;
 }
+
+input[type = 'text'], input[type = 'date'], input[type = 'email'], input[type = 'number'], input[type = 'tel'], input[type = 'range'], textarea
+{
+    display: flex;
+    width: 75%;
+    margin-top: 2px;
+}
+
