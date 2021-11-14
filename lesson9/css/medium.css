@@ -1,0 +1,87 @@
+@media only screen and (min-width: 37.5em)
+{
+    h1
+    {
+        font-size: 1.5rem;
+    }
+    
+    nav ul
+    {
+        display: flex;
+    }
+
+    nav ul li
+    {
+        flex: 1 1 100%;
+        padding: 8px;
+    }
+
+    .weather-summary
+    {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 1rem 2.5rem;
+        line-height: 1;
+        max-height: 100%;
+        
+        /*
+        top: 1.5em;
+        left: 1.5em;
+        */
+    }
+
+    .forecast
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .social-media img 
+    {
+        width: 50px;
+    }
+
+    .content
+    {
+        flex-direction: row;
+    }
+
+    .contact
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .hero
+    {
+        min-height: 15em;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards section{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    .cards section img{
+        max-width: 90%;
+        padding: 1.5rem; 
+    }
+    .cards section div p, h3{
+        max-width: 100%;
+        padding: 25px; 
+    }
+
+}
