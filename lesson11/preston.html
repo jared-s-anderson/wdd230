@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content = "News site for the weather">
-    <!--
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
-    -->
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -23,17 +15,17 @@
 <body>
     <div id ="banner" style="display: block;"></div>
 <header>
-    <img src="images/sun_logo.png" alt="The Weekly Whirlwind Logo" class="logo"><br>
-    <h1>The Weekly Whirlwind</h1>
-    <span class="motto">News that you can count on</span>
+    <a href="index.html"><img src="images/sun_logo.png" alt="The Weekly Whirlwind Logo" class="logo"></a><br>
+    <a href="index.html"><h1>The Weekly Whirlwind</h1>
+    <span class="motto">News that you can count on</span></a>
 </header>
 <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
         <li class="active"><a href="preston.html">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
@@ -42,9 +34,9 @@
     <h2 class="preston-title">Preston Idaho</h2>
     <article class="hero">
         <picture>
-            <source srcset="images/wdd230_image_franklin_small.jpg" media="(max-width: 500px)">
-            <source srcset="images/wdd230_image_franklin_medium.jpg" media="(max-width: 950px)">
-            <img src="images/wdd230_image_franklin_large.jpg" alt="landscape">
+            <source srcset="images/wdd230_image_franklinOriginal(1)_small.jpg" media="(max-width: 500px)">
+            <source srcset="images/wdd230_image_franklinOriginal(1)_medium.jpg" media="(max-width: 950px)">
+            <img src="images/wdd230_image_franklinOriginal(1)_large.jpg" alt="landscape">
         </picture>
         <div class="weather-summary">
         <h3>Weather Summary</h3>
@@ -78,15 +70,23 @@
         </table>
         <p class="credit">The information in the weather summary and the 5 day forecast has been provided by OpenWeather®.</p>
         </div>
+        <section class="preston-events">
+            <h3>Preston Events</h3>
+            <hr>
+        </section>
         <article class="article">
-        <h3>Local Food Bank</h3>
-        <div class="article-content">
-            <img src="images/food_bank.jpg" alt = "Picture of local food bank">
-            <p>Preston is holding a local food bank to help out those in the community who are in need. The local food bank started 
-                last Friday, and it will last until Saturday of next week. Local resisdents are encouraged to bring canned and boxed
-                items.
-            </p>
-        </div>
+            <h3>Preston Idaho Attractions</h3>
+            <div class="article-content">
+                <img src="images/preston_idaho.jpg" alt = "Picture of the Napoleon Dyname house">
+                <p>Preston, Idaho is home to many well-known attractions. One of the most visited attractions is 
+                   the Pioneer Histroic Byway. There are plenty of reservoirs for camping and fishing. Fans of the 
+                   movie Napoleon Dynamite will be happy to hear that many of the places where the film was shot are
+                   open for tourism. For more information on other tourist attractions in Preston, Idaho, visit 
+                   <a href="https://www.thecrazytourist.com/15-best-things-to-do-in-preston-idaho/" target="_blank">this 
+                   link.</a>
+                </p>
+            </div>
+            </article>
 </main>
 <footer>
     <article class="contact">
@@ -115,8 +115,9 @@
 </footer>
     <script src="js/menu.js"></script>
     <script src="js/modified.js"></script>
-    <script src="js/weather-summary.js"></script>
-    <script src="js/forecast.js"></script>
+    <script src="js/preston/weather-summary.js"></script>
+    <script src="js/preston/forecast.js"></script>
+    <script src="js/preston/town_data.js"></script>
     <script src="js/last_visit.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({

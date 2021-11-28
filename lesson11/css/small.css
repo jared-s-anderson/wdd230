@@ -51,7 +51,7 @@ header
 
 header, nav, footer, main
 {
-    max-width: 760px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -169,6 +169,7 @@ nav ul.hide
     display: flex;
     justify-content: center;
     padding: 25px;
+    margin-bottom: -50px;
 }
 
 main
@@ -247,23 +248,11 @@ td
     opacity: .9;
     max-height: 500px;
     line-height: 1;
-
-    
-    /*
-    position: absolute;
-    color: white;
-    top: 10px;
-    left: 10px;
-    background-color: #74A4BC;
-    font-size: .5rem;
-    padding: 15px;
-    */
-
 }
 
 .weather-summary h3
 {
-    margin-bottom: 1.5em;
+    margin-bottom: -5px;
     color: black;
     text-align: center;
 }
@@ -301,6 +290,16 @@ main h2
     margin-top: -50px;
 }
 
+.article-content a
+{
+    color: white;
+}
+
+.article-content a:hover
+{
+    color: #B6D6CC;
+}
+
 .article h3
 {
     color: white;
@@ -313,7 +312,6 @@ main h2
     margin-left: auto;
     margin-right: auto;
     border: white solid 2px;
-    
 }
 
 .map
@@ -322,15 +320,6 @@ main h2
     width: 50%;
 }
 
-/*
-.contact img
-{
-    width: 50%;
-    border: black solid 1px;
-    flex-direction: column-reverse;
-    
-}
-*/
 .contact
 {
     flex-direction: column-reverse;
@@ -428,25 +417,34 @@ main h2
 
 .home-article
 {
-    text-align: center;
+    display: flex;
     background-color: #29339B;
+    color: white;
+    padding: 25px;
+    border: dotted white 2px;
+    text-align: center;
+    flex-direction: column-reverse;
 }
 
 .home-article-title
 {
-    color: white;
-    padding: 25px;
+    text-align: center;
+    color: #29339B;
 }
+
 
 .home-article p
 {
     color: white;
-    padding: 25px;
+    padding-left: 25px;
 }
 
-.service-image
+.home-article img
 {
-    width: 100%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: white solid 2px;
 }
 
 .gallery-title
@@ -563,4 +561,60 @@ input[type = 'text'], input[type = 'date'], input[type = 'email'], input[type = 
     display: flex;
     width: 75%;
     margin-top: 2px;
+}
+
+
+.fh-events
+{
+    background-color: #29339B;
+    color: white;
+    padding: 25px;
+    border: dotted white 2px;
+    text-align: center;
+}
+
+.ss-events
+{
+    background-color: #29339B;
+    color: white;
+    padding: 25px;
+    border: dotted white 2px;
+    text-align: center;
+}
+
+.preston-events
+{
+    background-color: #29339B;
+    color: white;
+    padding: 25px;
+    border: dotted white 2px;
+    text-align: center;
+}
+
+.preston-events h3
+{
+    color: white;
+    margin-bottom: -10px;
+}
+
+.ss-events h3
+{
+color: white;
+margin-bottom: -10px;
+}
+
+.fh-events h3 
+{
+    color: white;
+    margin-bottom: -10px;
+}
+
+.fh-title
+{
+    text-align: center;
+}
+
+.ss-title
+{
+    text-align: center;
 }

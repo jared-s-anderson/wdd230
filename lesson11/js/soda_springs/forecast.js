@@ -1,4 +1,4 @@
-const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?q=Preston&units=imperial&appid=0efbfc14fa861e0ae067b5f38772f986";
+const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=0efbfc14fa861e0ae067b5f38772f986";
 
 fetch(apiURLForecast)
   .then((response) => response.json())
