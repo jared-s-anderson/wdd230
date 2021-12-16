@@ -1,0 +1,720 @@
+nav
+{
+    /*
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    */
+    text-align: center;
+    background-color: #601700;
+    padding: 0px;
+    /*
+    text-align: center;
+    padding: 10px;
+    */
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li
+{
+    padding: 0px;
+}
+
+nav ul li a
+{
+    display: block;
+    color: #F7F9F9;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover
+{
+    color: #E0D0C1;
+}
+
+nav ul.hide
+{
+    display: none;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.active
+{
+    background-color: #00A676;
+    border: 1px solid black;
+    color: #1C150F;
+}
+
+.banner
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner img
+{
+    width: 90%;
+}
+
+header, nav, footer, main
+{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.logo
+{
+    width: 90%;
+}
+
+.motto
+{
+    margin-bottom: 10px;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer
+{
+    background-color: #601700;
+    text-align: center;
+    color: white;
+}
+
+.call-to-action
+{
+    display: block;
+    position: static;
+    margin-right: 35px;
+    top: 15px;
+    left: 15px;
+    background: #74A4BC;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 10px;
+    box-shadow: 3px 3px 0 0 white;
+    opacity: .9;
+    max-height: 500px;
+    line-height: 1;
+}
+
+.social-media img
+{
+    width: 25px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+table
+{
+    border: 3px solid;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td
+{
+    border: 1px solid;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.hero
+{
+    
+    position: relative;
+    
+}
+
+.hero picture img
+{
+    width: 100%;
+    border-radius: .8em;
+}
+
+.weather-summary
+{
+    display: block;
+    position: static;
+    margin-right: 35px;
+    top: 15px;
+    left: 15px;
+    background: #74A4BC;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 10px;
+    box-shadow: 3px 3px 0 0 white;
+    opacity: .9;
+    max-height: 500px;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+
+.weather-summary h3
+{
+    margin-bottom: -5px;
+    color: black;
+    text-align: center;
+}
+
+.weather-summary p
+{
+    color: white;
+    text-align: center;   
+}
+
+.forecast
+{
+    margin-top: -50px;
+    display: none;
+    padding: 100px;
+    color: black;
+}
+
+#forecast-items
+{
+    background-color: white;
+    margin-top: -25px;
+}
+
+.forecast h3
+{
+    color: black;
+}
+
+h1, h2, h3
+{
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p 
+{
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#join
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+}
+
+#join-button
+{
+    border-radius: 15px;
+    width: 300px;
+    height: 75px;
+    font-size: 35px;
+    background-color: red;
+    color: black;
+    box-shadow: 0px 2px 8px -4px black;
+    transition: all 300ms ease;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#join-button:hover
+{
+    box-shadow: 0px 2px 12px -2px black;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+#purpose
+{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #601700;
+    color: #F7F9F9;
+    margin-bottom: 25px;
+    margin-top: -85px;
+}
+
+#goals
+{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #00A676;
+    color: #1C150F;
+}
+
+#goals ul
+{
+    display: table;
+    margin: 0 auto;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1C150F;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.municipality-title
+{
+    text-align: center;
+}
+
+.municipality
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.municipality figure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.municipality figure img
+{
+    filter: blur(0em);
+    transition: filter .5s;
+    border: white dashed 2px;
+    margin: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.municipality figcaption 
+{
+    color: black;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.events-title
+{
+    text-align: center;
+}
+
+.events
+{
+    display: table;
+    margin: 0 auto;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1C150F;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.lb-title
+{
+    text-align: center;
+}
+
+.lb 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 15px;
+}
+
+.lb figure 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.lb figure img
+{
+    filter: blur(0em);
+    transition: filter .5s;
+    border: white dashed 2px;
+    margin: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.lb figcaption
+{
+    color: black;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+footer
+{
+    padding: 5px;
+}
+
+.thanks
+{
+    text-align: center;
+}
+
+.form-title
+{
+    text-align: center;
+}
+
+form label, form div
+{
+    display: block;
+    padding-top: 1rem;
+}
+
+form fieldset
+{
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    color:#29339B;
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.thanks
+{
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 250px;
+}
+
+.thanks h1
+{
+    text-align: center;
+    color: #1C150F;
+    margin-bottom: 50px;
+}
+
+.thanks p
+{
+    text-align: center;
+    color: #1C150F;
+}
+
+.ta 
+{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.submit
+{
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+input[type = 'text'], input[type = 'email'], input[type = 'number'], input[type = 'tel'], textarea
+{
+    display: flex;
+    width: 75%;
+    margin-top: 2px;
+}
+
+.city-title 
+{
+    text-align: center;
+}
+
+.history 
+{
+    margin-bottom: 125px;
+}
+
+.history img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.history-title
+{
+    text-align: center;
+}
+
+.history p
+{
+    text-align: right;
+    padding: 5px;
+    line-height: 3;
+}
+
+.pioneers
+{
+    width: 75%;
+    float: right;
+    padding-left: 25px;
+}
+
+.attractions-title
+{
+    text-align: center;
+}
+
+.attractions img 
+{
+    width: 50%;
+    float: left;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.attractions 
+{
+    margin-bottom: 100px;
+}
+
+.attractions p 
+{
+    text-align: left;
+    line-height: 3;
+}
+
+.demographics-title
+{
+    text-align: center;
+}
+
+.demographics img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.demographics p 
+{
+    text-align: center;
+}
+
+.benefits
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.benefits:hover
+{
+    box-shadow: 0px 2px 12px -2px black;
+    transform: translateY(-2px);
+}
+
+.join-us
+{
+    text-align: center;
+}
+
+.levels
+{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 10px;
+    color: #1C150F;
+}
+
+.levels ul
+{
+    display: table;
+    margin: 0 auto;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1C150F;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.levels h2
+{
+    text-align: center;
+}
+
+.contact-info
+{
+    text-align: center;
+}
+
+.map 
+{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 75%;
+}
+
+#directory 
+{
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#directory-title
+{
+    text-align: center;
+}
+
+.directory-fonts
+{
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+#businesses 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#businesses h3 
+{
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+#businesses p 
+{
+    font-size: .85rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+#businesses .card 
+{
+    background-color: #00A676;
+    color:#1C150F;
+    padding: 1rem;
+}
+
+#businesses .card > div > p 
+{
+    font-weight: bold;
+}
+
+#businesses .card > div div
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+#businesses .card > div div p 
+{
+    margin-bottom: .5rem;
+}
+
+#businesses .card > div div img 
+{
+    max-width: 25%;
+    /*object-fit: contain;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+#businesses .card a
+{
+    display: block;
+    margin-top: .5rem;
+    position: relative;
+    color: #1C150F;
+}
+
+#businesses .card p:last-child
+{
+    margin-top: 1rem;
+}
+
+#directory > div:first-child 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#directory button img
+{
+    cursor: pointer;
+    width: 25px;
+}
+
+footer
+{
+    color: #F7F9F9;
+}
+
+footer a 
+{
+    color: #F7F9F9;
+}
+
+footer a:hover 
+{
+    color: #E0D0C1;
+}
+
+#form-title
+{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#directors-title
+{
+    text-align: center;
+}
+
+.directors
+{
+    display: table;
+    margin: 0 auto;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1C150F;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 2;
+}

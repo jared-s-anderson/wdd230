@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Rigby City Chamber of Commerce Join Page">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="rigby_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Join | Rigby Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo_small.png" alt="Rigby Chamber of Commerce Logo" class="logo"></a><br>
+        <span class="motto">"We are here to help."</span>
+    </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li class="active"><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="join-us">
+    <h1>Why should you join us?</h1>
+    <p>Rigby's Chamber of Commerce provides many different benefits. We know that everyone has different preferences, so we decided to
+        create four different membership levels. Each of these different levels is the suited to fit different business types.</p>
+    </div>
+    <div class="levels">
+        <h2>Membership Levels</h2>
+        <hr>
+        <ul>
+            <li>$100 - Non-profit level: This level is for new businesses and businesses without employees</li>
+            <li>$200 - Bronze level: This level is for businesses with a relatively low number of employees</li>
+            <li>$400 - Silver level: This level is for business that contain around 250 employees or less</li>
+            <li>$1000 - Gold Level: This level is for business that have over 250 employees</li>
+        </ul>
+        <p><strong>For more information regarding each of these levels, check out the chart provided below.</strong></p>
+    </div>
+    <img class="benefits" src="images/commerce_benefits.png" alt="Benefits of joining Rigby's Chamber of Commerce">
+    <h2 class="form-title">Fill out this form</h2>
+    <form method="get" action="thanks.html" class="report">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>First Name* <input type="text" name="firstname" required></label>
+            <label>Last Name* <input type="text" name="lastname" required></label>
+            <label>Title <input type="text" name="title"></label>
+            <label>Email* <input type="email" name="email" placeholder="someone@outlook.com" required></label>
+            <label>Cell Phone <input type="tel" name="phone"></label>
+            <label>Business Name* <input type="text" name="business" required></label>
+            <label>Business Address <input type="text" name="address"></label>
+            <label>Business Website <input type="text" name="site" placeholder="https://www.business.com"></label>
+            <label> Business Description: <textarea class="ta" name="description" rows="5" cols="50"></textarea></label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose one of the membership levels</legend>
+            <label><input type="radio" name="level" value="nonprofit">Non-profit ($100)</label>
+            <label><input type="radio" name="level" value="bronze">Bronze ($200)</label>
+            <label><input type="radio" name="level" value="silver">Silver ($400)</label>
+            <label><input type="radio" name="level" value="gold">Gold ($1000)</label>
+            <label><input type="submit" class="submit" name="submitBtn" value="Send Form"></label>
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <article class="contact">
+        <div class="info">
+        <p>Rigby Chamber of Commerce</p>
+        <p>PO Box 327</p>
+        <p>Rigby, ID 83442</p>
+        <p>☎ 208-745-8111 <br><br>
+        <a href="mailto:inforequest@rigbychamber.com" target ="_blank" rel="nothing">inforequest@rigbychamber.com</a>
+        </p>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.facebook.com/"><img class="icons" 
+            src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://twitter.com/"><img class="icons" 
+            src="images/twitter-logo.png" alt="twitter logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
+            src="images/youtube-logo.png" alt="youtube logo"></a>
+        </div>
+        </article>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+    <p>Last Visit: <span id="last-visit"></span> Day(s) Ago</p>
+</footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
+    <script src="js/last_visit.js"></script>
+</body>
+</html>

@@ -1,13 +1,13 @@
-const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?id=5605321&units=imperial&appid=0efbfc14fa861e0ae067b5f38772f986";
+const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=0efbfc14fa861e0ae067b5f38772f986";
 
 fetch(apiURLForecast)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
 
-    const days = document.querySelectorAll("#day1, #day2, #day3");
-    const forecast = document.querySelectorAll("#forecast1, #forecast2, #forecast3");
-    const icon = document.querySelectorAll("#icon1, #icon2, #icon3");
+    const days = document.querySelectorAll("#day1, #day2, #day3, #day4, #day5");
+    const forecast = document.querySelectorAll("#forecast1, #forecast2, #forecast3, #forecast4, #forecast5");
+    const icon = document.querySelectorAll("#icon1, #icon2, #icon3, #icon4, #icon5");
 
     const week = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 

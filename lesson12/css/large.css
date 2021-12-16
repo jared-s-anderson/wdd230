@@ -1,0 +1,143 @@
+@media only screen and (min-width: 60em)
+{
+    nav button
+    {
+        display: none;
+    }
+
+    nav ul 
+    {
+        display: flex;
+    }
+
+    nav ul li 
+    {
+        flex: 1 1 100%;
+        padding: 10px
+    }
+
+    .call-to-action
+    {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        padding: 1rem 2.5rem;
+        line-height: 1;
+        max-height: 100%;
+        margin-top: 475px;
+        margin-left: 1000px;
+    }
+
+    .weather-summary
+    {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        padding: 1rem 2.5rem;
+        line-height: 2;
+        max-height: 100%;
+    }
+
+    .forecast
+    {
+        display: block;
+    }
+
+    .municipality
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .municipality figcaption
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .municipality figure 
+    {
+        box-shadow: 0px 2px 8px -4px black;
+        transition: all 300ms ease;
+        padding: 15px;
+    }
+
+    .municipality figure:hover
+    {
+        box-shadow: 0px 2px 12px -2px white;
+        transform: translateY(-2px);
+    }
+
+    .lb
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .lb figcaption
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .lb figure 
+    {
+        box-shadow: 0px 2px 8px -4px black;
+        transition: all 300ms ease;
+        padding: 15px;
+    }
+
+    .lb figure:hover
+    {
+        box-shadow: 0px 2px 12px -2px white;
+        transform: translateY(-2px);   
+    }
+
+    .history img 
+    {
+        width: 30%;
+    }
+
+    .pioneers
+    {
+        width: 100%;
+    }
+
+    .attractions img 
+    {
+        width: 30%;
+    }
+
+    .demographics img 
+    {
+        width: 30%;
+    }
+
+    .benefits
+    {
+        width: 50%;
+    }
+
+    #directory
+    {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    #businesses .card > div div img 
+    {
+        max-width: 10rem;
+    }
+
+    #businesses.grid .card > div div img 
+    {
+        max-width: 7rem;
+    }
+
+    .map 
+    {
+        width: 50%;
+    }
+}

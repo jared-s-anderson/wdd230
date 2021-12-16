@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Rigby City Chamber of Commerce Contact Page">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="rigby_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Contact | Rigby Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo_small.png" alt="Rigby Chamber of Commerce Logo" class="logo"></a><br>
+        <span class="motto">"We are here to help."</span>
+    </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <article class="contact-info">
+        <div>
+        <h1>Contact Information</h1>
+        <p>Rigby Chamber of Commerce</p>
+        <p>PO Box 327</p>
+        <p>Rigby, ID 83442</p>
+        <p>☎ 208-745-8111 <br><br>
+        <a href="mailto:inforequest@rigbychamber.com" target ="_blank" rel="nothing">inforequest@rigbychamber.com</a>
+        </p>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.facebook.com/"><img class="icons" 
+            src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://twitter.com/"><img class="icons" 
+            src="images/twitter-logo.png" alt="twitter logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
+            src="images/youtube-logo.png" alt="youtube logo"></a>
+        </div>
+        </article>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11543.114233464226!2d-111.9239352617744!3d43.67357506592781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53546c26bac0d859%3A0xbf887dcc84af9018!2sRigby%2C%20ID%2083442!5e0!3m2!1sen!2sus!4v1639534910222!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h2 id="form-title">Fill out the form below if you would like to receive more information.</h2>
+        <form method="get" action="thanks.html" class="report">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Name* <input type="text" name="firstname" required></label>
+                <label>Phone <input type="tel" name="phone"></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@outlook.com" required></label>
+                <label>Comment <textarea class="ta" name="description" rows="5" cols="50"></textarea></label>
+                <label><input type="submit" class="submit" name="submitBtn" value="Send Information"></label>
+            </fieldset>
+        </form>
+        <h2 id="directors-title">Board of Directors</h2>
+        <div class="directors">
+            <hr>
+            <ul>
+                <li>President - Teresa Anderson <br>Email: <a href="mailto:tanderson@firstamholding.com">tanderson@firstamholding.com</a><br>Phone Number: 208-745-8715</li>
+                <li>President Elect - Brad Wells</li>
+                <li>Secretary - Misty Erickson <br>Email: <a href="mailto:rigbychambersecretary@gmail.com">rigbychambersecretary@gmail.com</a></li>
+                <li>Treasurer - Chris Hayward <br>Email: <a href="mailto:chris.hayward@zionsbank.com">chris.hayward@zionsbank.com</a><br>Phone Number: 208-523-4786</li>
+                <li>Board Member - Ginger Crystal <br>Email: <a href="mailto:Rigby@bankofcommerce.org">Rigby@bankofcommerce.org</a><br>Phone Number: 208-745-7610</li>
+                <li>Board Member - Steve Abbott <br>Email: <a href="mailto:abottsbenfra@aol.com">abottsbenfra@aol.com</a><br>Phone Number: 745-7738</li>
+                <li>Board Member - Quinn Mikesell</li>
+                <li>Board Member - Joe Ricks</li>
+                <li>Board Member - Dan Peck</li>
+            </ul>
+        </div>
+</main>
+<footer>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+    <p>Last Visit: <span id="last-visit"></span> Day(s) Ago</p>
+</footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
+</body>
+</html>

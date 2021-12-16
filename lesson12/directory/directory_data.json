@@ -1,0 +1,74 @@
+{
+    "businesses" : [
+        {
+            "name" : "Broulims",
+            "logo" : "broulims_logo.jpg",
+            "address" : "150 North State Street, Rigby ID, 83442",
+            "phone" : "(208) 745-7771",
+            "email" : "socialmedia@broulimsstores.com",
+            "website" : "https://broulims.com/rigby",
+            "level" : "Gold",
+            "description" : "Broulims is a grocery store that has been around since 1922."
+        },
+        {
+            "name" : "Westmark",
+            "logo" : "westmark_logo.jpg",
+            "address" : "567 Rigby Lake Dr, Rigby, ID 83442",
+            "phone" : "1-800-574-5626",
+            "email" : "onlinebanking@westmark.org",
+            "website" : "https://www.westmark.org/rigby-branch-location.shtml",
+            "level" : "Gold",
+            "description" : "Westmark is a trusted credit union."
+        },
+        {
+            "name" : "Bambinos",
+            "logo" : "bambinos_logo.jpg",
+            "address" : "205 Stockham Boulevard, Rigby, ID 83442",
+            "phone" : "(208) 745-5767",
+            "email" : "roytheiss@gmail.com",
+            "website" : "https://bambinos.us/services",
+            "level" : "Bronze",
+            "description" : "Bambinos is a small business known for making calzones."
+        },
+        {
+            "name" : "Tadd Jenkins Chevrolet",
+            "logo" : "tadd_jenkins_logo.png",
+            "address" : "409 Farnsworth Way, Rigby, ID 83442",
+            "phone" : "(208) 745-6634",
+            "email" : "@tjchev.com",
+            "website" : "https://www.tjchev.com/",
+            "level" : "Gold",
+            "description" : "Tadd Jenkins Chevrolet is a trusted car dealership."
+        },
+        {
+            "name" : "The Giving Cupboard",
+            "logo" : "giving_cupboard_logo.jpg",
+            "address" : "153 N 3900 E, Rigby, ID 83442",
+            "phone" : "(208) 557-9089",
+            "email" : "info@thegivingcupboard.com",
+            "website" : "https://thegivingcupboard.com/",
+            "level": "Non-profit",
+            "description" : "The Giving Cupboard is a non-profit organization with a mission to help those in need."
+        },
+        {
+            "name" : "Arctic Circle",
+            "logo" : "arctic_circle_logo.png",
+            "address" : "241 S State St, Rigby, ID 83442",
+            "phone" : "(208) 745-6111",
+            "email" : "sheal@acburger.com",
+            "website" : "https://acburger.com/",
+            "level" : "Silver",
+            "description" : "Arctic Circle is a small restuarant in Rigby, Idaho."
+        },
+        {
+            "name" : "Scotty's True Value and Auto",
+            "logo" : "scottys_logo.jpg",
+            "address" : "201 S State St, Rigby, ID 83442",
+            "phone" : "(208) 745-6498",
+            "email" : "scottystvh@yahoo.com",
+            "website" : "https://stores.truevalue.com/id/rigby/10919/",
+            "level" : "Gold",
+            "description" : "Scotty's True Value and Auto is a hardware store."           
+        }
+    ]
+}

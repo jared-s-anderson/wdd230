@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Rigby City Chamber of Commerce City Page">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="rigby_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>City | Rigby Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo_small.png" alt="Rigby Chamber of Commerce Logo" class="logo"></a><br>
+        <span class="motto">"We are here to help."</span>
+    </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <h1 class="city-title">Rigby, Idaho</h1>
+    <div class="history">
+    <img src="images/rigby_sign.jpg" alt="Rigby sign">
+    <h2 class="history-title">Rigby's History</h2>
+    <hr>
+    <img class="pioneers" src="images/rigby_pioneers.jpg" alt="Rigby pioneers">
+    <p>The town of Rigby was officially established in 1903. Many settlers came to Rigby before it was officially established. A majority of the settlers
+        who came to Rigby belonged to the Church of Jesus Christ of Latter-day Saints. Rigby got its name from one of the pioneers settlers named William F. Rigby.
+        Something that many people may not be aware of is that Rigby is the birthplace of television. For more information about
+        the history of Rigby, Idaho, please visit <a href="https://www.eastidahonews.com/2019/11/we-are-east-idaho-rigby/">this link.</a>
+    </p>
+    </div>
+    <h2 class="attractions-title">Attractions</h2>
+    <hr>
+    <div class="attractions">
+        <img src="images/rigby_museum.jpg" alt="Rigby museum">
+        <p>One of Rigby's most interesting tourist attractions is the Farnsworth TV and Pioneer Museum. Tourists who visit Rigby will have the 
+            opportunity to learn about how the pioneers settled in Rigby and how the television was created. This museum is 
+            located at 118 W 1st S, Rigby, ID 83442. For more information about the Farnsworth TV and Pioneer Museum, please vist 
+            <a href="https://www.farnsworthpioneermuseum.org/">this link.</a><br> Another one of Rigby's biggest attractions is the Jefferson
+            County Lake. Many people go there in the summer time to enjoy sitting in the sun with friends and family. A fireworks celebration is held around the 
+            4th of July to celebrate Independence Day.
+        </p>
+    </div>
+    <h2 class="demographics-title">Demographics</h2>
+    <hr>
+    <div class="demographics">
+        <img src="images/rigby_population.png" alt="Population of Rigby"><br>
+        <img src="images/rigby_race.png" alt="The different races in Rigby">
+        <p>The information above has been provided by worldpopulationreview.com. To find out more information about Rigby, 
+            click <a href="https://worldpopulationreview.com/us-cities/rigby-id-population">here.</a>
+        </p>
+    </div>
+</main>
+<footer>
+    <article class="contact">
+        <div class="info">
+        <p>Rigby Chamber of Commerce</p>
+        <p>PO Box 327</p>
+        <p>Rigby, ID 83442</p>
+        <p>☎ 208-745-8111 <br><br>
+        <a href="mailto:inforequest@rigbychamber.com" target ="_blank" rel="nothing">inforequest@rigbychamber.com</a>
+        </p>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.facebook.com/"><img class="icons" 
+            src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://twitter.com/"><img class="icons" 
+            src="images/twitter-logo.png" alt="twitter logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
+            src="images/youtube-logo.png" alt="youtube logo"></a>
+        </div>
+        </article>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+    <p>Last Visit: <span id="last-visit"></span> Day(s) Ago</p>
+</footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
+    <script src="js/last_visit.js"></script>
+</body>
+</html>

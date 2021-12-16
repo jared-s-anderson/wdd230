@@ -1,0 +1,106 @@
+@media only screen and (min-width: 37.5em)
+{
+    nav button 
+    {
+        display: none;
+    }
+
+    nav ul
+    {
+        display: flex;
+    }
+
+    nav ul li
+    {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+
+    nav ul.hide 
+    {
+        display: flex;
+    }
+
+    .call-to-action
+    {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 1rem 2.5rem;
+        line-height: 1;
+        max-height: 100%;
+    }
+
+    .weather-summary
+    {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 1rem 2.5rem;
+        line-height: 2;
+        max-height: 100%;
+    }
+
+    .forecast
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .municipality
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .lb
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .history img 
+    {
+        width: 60%;
+    }
+
+    .pioneers
+    {
+        width: 100%;
+    }
+
+    .attractions img 
+    {
+        width: 50%;
+    }
+
+    .benefits
+    {
+        width: 50%;
+    }
+
+    #businesses
+    {
+        padding: .3rem 1rem;
+    }
+
+    #businesses p 
+    {
+        font-size: .9rem;
+    }
+
+    #businesses.grid 
+    {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+
+    .map 
+    {
+        width: 75%;
+    }
+}
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Rigby City Chamber of Commerce Homepage">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="rigby_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Home | Rigby Chamber of Commerce</title>
+</head>
+<body>
+<aside id="banner">
+<p id="no-show">&times;</p>
+</aside>
+    <header>
+        <a href="index.html"><img src="images/logo_small.png" alt="Rigby Chamber of Commerce Logo" class="logo"></a><br>
+        <span class="motto">"We are here to help."</span>
+    </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <article class="hero">
+        <picture>
+            <img src="images/banner.jpg" alt="City council meeting">
+        </picture>
+        <div class="weather-summary">
+        <h3>Today's Weather</h3>
+        <p>Currently: <span id="current"></span></p>
+        <p>Temperature: <span id="temp"></span>°F</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="windspeed"></span> mph</p>
+        </div>
+    </article>
+        <div class="forecast">
+        <h3>3 Day Forecast</h3>
+        <br>
+        <table id="forecast-items">
+            <tbody>
+                <tr>
+                    <th><span id="day1"></span></th>
+                    <th><span id="day2"></span></th>
+                    <th><span id="day3"></span></th>
+                </tr>
+                <tr>
+                    <td><img id="icon1" src="#" alt = "#" width = 60 height = 60><span id="forecast1"></span>&deg;F</td>
+                    <td><img id="icon2" src="#" alt = "#" width = 60 height = 60><span id="forecast2"></span>&deg;F</td>
+                    <td><img id="icon3" src="#" alt = "#" width = 60 height = 60><span id="forecast3"></span>&deg;F</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="credit">The weather information has been provided by OpenWeather®.</p>
+        </div>
+        <div id="purpose">
+            <h2>Our Purpose</h2>
+            <hr>
+            <p>Here at the Rigby Chamber of Commerce, we are focused on supporting local businesses. <br>Through the Rigby Chamber of Commerce, 
+                we are able to provide tools and resources to help the community. <br>As a team that possessess many unique skills,
+                we have been working together to improve the current state of the local economy. <br>We know that together we can create a
+                place of unity in the community of Rigby.
+            </p>
+        </div>
+        <div id="goals">
+            <h2>Our Goals</h2>
+            <hr>
+            <ul>
+                <li>Promote growth and improvement in the community by helping out local businesses</li>
+                <li>Provide necessary resources to help local businesses grow</li>
+                <li>Educate the community about opportunities to serve and help out the community</li>
+                <li>Inform the community about upcoming events</li>
+                <li>Help those who have recently moved into the community of Rigby</li>
+            </ul>
+        </div>
+        <div id="join">
+            <form method="get" action="/lesson12/join.html">
+                <button id="join-button" type="submit">Join Us!</button>
+            </form>
+        </div>
+            <h2 class="municipality-title">Municipality</h2>
+            <hr>
+            <div class="municipality">
+            <figure><img src="images/rigby_mayor.jpg" alt="Current Rigby mayor">
+                <figcaption>Jason Richardson (Current Rigby Mayor)</figcaption>
+            </figure>
+            <figure><img src="images/rigby_city_building.jpg" alt="Rigby City building">
+                <figcaption>Rigby City Building</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rigby_city_view.jpg" alt="Rigby City view">
+                <figcaption>View of Rigby</figcaption>
+            </figure>
+            </div>
+            <h2 class="events-title">Upcoming Events</h2>
+            <hr>
+            <div class="events">
+                <p>12/21/2021 Christmas Party</p>
+                <p>12/31/2021 New Years Party</p>
+                <p>01/12/2022 Self Sufficiency Classes Begin </p>
+                <p>01/29/2022 Small Business Saturday</p>
+                <p>02/15/2022 Business Training Seminar</p>
+                <p>02/23/2022 New Member Briefing</p>
+                <p>03/08/2022 Annual Membership Meeting</p>
+                <p>03/18/2022 Chamber Forum</p>
+                <p>04/04/2022 City Council Meeting</p>
+                <p>04/12/2022 Meet the Candidate Night</p>
+            </div>
+            <h2 class="lb-title">Support these local businesses!</h2>
+            <hr>
+            <div class="lb">
+                <figure>
+                    <img src="images/tadd-jenkins-rigby.jpg" alt="Tadd Jenkins in Rigby">
+                    <figcaption>Tadd Jenkins in Rigby</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rigby-broulims.png" alt="Broulims grocery store in Rigby">
+                    <figcaption>Broulims grocery store in Rigby</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bambinos-rigby.jpg" alt="Bambinos pizza place">
+                    <figcaption>Bambinos pizza place</figcaption>
+                </figure>
+            </div>
+</main>
+<footer>
+    <article class="contact">
+        <div class="info">
+        <p>Rigby Chamber of Commerce</p>
+        <p>PO Box 327</p>
+        <p>Rigby, ID 83442</p>
+        <p>☎ 208-745-8111 <br><br>
+        <a href="mailto:inforequest@rigbychamber.com" target ="_blank" rel="nothing">inforequest@rigbychamber.com</a>
+        </p>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.facebook.com/"><img class="icons" 
+            src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://twitter.com/"><img class="icons" 
+            src="images/twitter-logo.png" alt="twitter logo"></a>
+        <a class="social-media" rel="nothing" target="_blank" href="https://www.youtube.com/"><img class="icons" 
+            src="images/youtube-logo.png" alt="youtube logo"></a>
+        </div>
+        </article>
+    <p>
+    &copy; 2021<span id="year"></span> | Jared Anderson | Idaho | 
+        <a href = "https://www.byui.edu/online" target = "_blank">BYUI Online Learning</a>
+    </p>
+    <p class = "update" id = "fullDate"></p>
+    <p>Last Visit: <span id="last-visit"></span> Day(s) Ago</p>
+</footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/last_visit.js"></script>
+    <script src="js/notifications.js"></script>
+</body>
+</html>
